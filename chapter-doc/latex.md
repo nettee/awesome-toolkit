@@ -29,3 +29,9 @@ fc-list :lang=zh
 注意设置字体的时候使用`\setCJKmainfont`，这样只会设置中文为宋体，英文还是默认的字体。如果设置`\setmainfont{SimSun}`，英文也会变成宋体，那样就太丑了。
 
 使用xeCJK的时候有什么疑问，直接在命令行运行`texdoc xeCJK`即可。
+
+## Tikz
+
+```LaTeX
+\usetikzlibrary{intersections} 
+```
