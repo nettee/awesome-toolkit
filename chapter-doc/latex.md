@@ -33,5 +33,6 @@ fc-list :lang=zh
 ## Tikz
 
 ```LaTeX
-\usetikzlibrary{intersections} 
+\usetikzlibrary{intersections}
+\usetikzlibrary{arrows.meta}
 ```
