@@ -10,7 +10,15 @@
 
 pdflatex对中文的支持不太好，中文无法在PDF文档中显示。要让LaTeX支持中文，目前比较好的方法是使用xelatex+xeCJK。xelatex已经包含在texlive工具包里。
 
-首先你要保证系统里有你喜欢的字体，可以去网上下载"宋体"等字体的ttf文件，也可以直接从Windows系统中复制，字体放到/usr/share/fonts目录。
+首先你要保证系统里有你喜欢的字体，可以去网上下载"宋体"等字体的ttf文件，也可以直接从Windows系统中复制，字体放到/usr/share/fonts目录下（可以新建子目录）。
+
+更新字体缓存：
+
+```
+sudo mkfontscale
+sudo mkfontdir
+sudo fc-cache -fv
+```
 
 查看系统里已有的中文字体：
 
