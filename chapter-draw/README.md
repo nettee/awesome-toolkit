@@ -1,3 +1,3 @@
 # 绘图
  
-+ [Tikz](tikz.md)
++ [TikZ](tikz.md)

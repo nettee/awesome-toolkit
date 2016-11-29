@@ -38,9 +38,7 @@ fc-list :lang=zh
 
 使用xeCJK的时候有什么疑问，直接在命令行运行`texdoc xeCJK`即可。
 
-## Tikz
+## TikZ
 
-```LaTeX
-\usetikzlibrary{intersections}
-\usetikzlibrary{arrows.meta}
-```
+TikZ是LaTeX环境的绘图工具，关于TikZ的使用方法可以参考[TikZ](../chapter-draw/tikz.md)部分。
+
