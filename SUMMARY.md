@@ -3,4 +3,6 @@
   + [LaTeX](chapter-doc/latex.md)
 + [绘图](chapter-draw/README.md)
   + [TikZ](chapter-draw/tikz.md)
-+ [文件](chapter-file/README.md)
++ [文件处理](chapter-file/README.md)
++ [Linux配置](chapter-linux/README.md)
+  + [输入法](chapter-linux/input.md)
