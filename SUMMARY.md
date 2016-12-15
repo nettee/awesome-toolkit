@@ -5,4 +5,5 @@
   + [TikZ](chapter-draw/tikz.md)
 + [文件处理](chapter-file/README.md)
 + [Linux配置](chapter-linux/README.md)
-  + [输入法](chapter-linux/input.md)
+  + [输入](chapter-linux/input.md)
+  + [显示](chapter-linux/display.md)
