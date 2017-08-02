@@ -1,3 +1,9 @@
+# iManual
+
+```Bash
+gitbook serve
+```
+
 # IBUS
 
 ## Install ibus-pinyin

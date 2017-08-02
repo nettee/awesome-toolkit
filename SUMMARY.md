@@ -7,3 +7,5 @@
 + [Linux配置](chapter-linux/README.md)
   + [输入](chapter-linux/input.md)
   + [显示](chapter-linux/display.md)
+  + [网络](chapter-linux/network.md)
+
