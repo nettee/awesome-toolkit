@@ -22,6 +22,14 @@ pdflatex对中文的支持不太好，中文无法在PDF文档中显示。要让
 
 使用xeCJK的时候有什么疑问，直接在命令行运行`texdoc xeCJK`即可。
 
+### Mac OS X 上的字体
+
+第一次安装 MacTex (texlive) 然后编译的时候报“无法找到 FontAwesome”字体，这是因为字体装在 texlive 的目录里很可能是找不到的，需要安装在系统字体里。解决方法是把对应字体的 .otf 文件双击打开，安装到字体册就可以了。
+
+注意 LaTeX 里写字体名要到字体册里找官方的名称。
+
+![Font Book label](fontbook.jpg)
+
 ## 插入图片
 
 插入图片使用graphics或graphicx宏包，插入的方法可以参考《LaTeX插图指南》。
