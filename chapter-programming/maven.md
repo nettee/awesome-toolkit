@@ -27,3 +27,22 @@ mvn test -Dtest=PagedFileTest
 ```Shell
 mvn test -Dtest=PagedFileTest#disposePage
 ```
+
+## 实用工具
+
+### 分析不需要的依赖
+
+使用 maven-dependency-plugin，定义 `dependency:analyze` goal，可以分析 pom.xml 中有哪些依赖实际上没有用到。
+
+## 其他注意事项
+
+Mac OS 遇到 Spring Boot 启动慢的事情，可能是因为 host 解析很慢。解决方法：
+
+第一步，运行 `hostname` 命令，记下来本机名称（如 MacBook.local）。
+
+第二步，修改 `/etc/hosts` 文件
+
+```
+127.0.0.1    localhost    MacBook.local
+::1          localhost    MacBook.local
+```
